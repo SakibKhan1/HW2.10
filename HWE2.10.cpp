@@ -14,8 +14,9 @@ using namespace std;
 int main()
 {
     double gallons, fuel, price;
-    
+    //All 3 variables declared double to account for decimals
     cout<<"Enter the number of gallons in the tank: ";
+    //3 user inputs needed to find cost per 100 miles and how many miles you can go.
     cin >> gallons; 
     cout << "Enter the fuel efficiency in miles per gallon: ";
     cin >> fuel; 
